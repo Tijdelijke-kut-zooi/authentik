@@ -34,7 +34,7 @@ from authentik.lib.utils.http import authentik_user_agent
 from authentik.lib.utils.reflection import class_to_path, get_env
 
 LOGGER = get_logger()
-SENTRY_DSN = "https://a579bb09306d4f8b8d8847c052d3a1d3@sentry.beryju.org/8"
+SENTRY_DSN = "https://b4b9e983e4cc41fab2ca414cbfa5e11d@o1296783.ingest.sentry.io/4504143014133760"
 
 
 class SentryWSMiddleware(BaseMiddleware):
